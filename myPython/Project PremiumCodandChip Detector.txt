@@ -1,0 +1,15 @@
+ON search looks in defined area 'gps present location' for best chip shop in area 
+Defined by google maps from following in order of importance
+    Number of Comments (Above 500) if not reached dont display
+    Rating (4 stars or above) if not reached dont display
+    Whether has restaurant in text - nice to have
+
+Displays other info when clicked on map including opening times
+
+If this can then display drive times etc all the better
+
+Must include some loveable chip type cheeky character/mascot
+
+Favorite and always display stroed locations, once the target has been entered and tested i.e. Chesters, Trenchers
+
+Future functionally ideas - add all wimpy locations by default with beefeater guy graphic

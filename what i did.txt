@@ -1,0 +1,195 @@
+
+Steven@Dekkion-Desktop MINGW64 ~
+$ ls
+ -1.14-windows.xml
+'3D Objects'/
+ AndroidStudioProjects/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ LaunchBox/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - Meadowhall Education Centre'/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ Zomboid/
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ tvguide/
+ venv/
+ wiki_scraper.py
+
+Steven@Dekkion-Desktop MINGW64 ~
+$ pwd
+/c/Users/Steven
+
+Steven@Dekkion-Desktop MINGW64 ~
+$ cd c:
+
+Steven@Dekkion-Desktop MINGW64 /c
+$ cd /c/
+
+Steven@Dekkion-Desktop MINGW64 /c
+$ pwd
+/c
+
+Steven@Dekkion-Desktop MINGW64 /c
+$ ls
+'$Recycle.Bin'/             Recovery/
+'$Windows.~WS'/            'Riot Games'/
+'Documents and Settings'@   SWSetup/
+ DumpStack.log              SetMatrixLEDScript.xml
+ DumpStack.log.tmp         'System Volume Information'/
+ ESD/                       TDSSKiller.3.1.0.28_28.03.2023_16.54.05_log.txt
+'GOG Games'/                Users/
+ GetDeviceCap.xml           Windows/
+ GetDeviceStatus.xml        XboxGames/
+ Intel/                     adobeTemp/
+ OneDriveTemp/              hiberfil.sys
+ PerfLogs/                  pagefile.sys
+'Program Files'/            plc_debug/
+'Program Files (x86)'/      swapfile.sys
+ ProgramData/               system.sav/
+ QueryAllDevice.xml
+
+Steven@Dekkion-Desktop MINGW64 /c
+$ mkdir code
+
+Steven@Dekkion-Desktop MINGW64 /c
+$ cd code
+
+Steven@Dekkion-Desktop MINGW64 /c/code
+$ ls
+
+Steven@Dekkion-Desktop MINGW64 /c/code
+$ code
+
+Steven@Dekkion-Desktop MINGW64 /c/code
+$ code
+
+Steven@Dekkion-Desktop MINGW64 /c/code
+$ code.
+bash: code.: command not found
+
+Steven@Dekkion-Desktop MINGW64 /c/code
+$ code .
+
+Steven@Dekkion-Desktop MINGW64 /c/code
+$ git init
+Initialized empty Git repository in C:/code/.git/
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git add ..all
+fatal: pathspec '..all' did not match any files
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git //all
+git: '/all' is not a git command. See 'git --help'.
+
+The most similar command is
+        pull
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git --all
+unknown option: --all
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git add --all
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git commit -m "first html added"
+[master (root-commit) 5255a40] first html added
+ 1 file changed, 6 insertions(+)
+ create mode 100644 index.html
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ ls
+index.html
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ ls -a
+./  ../  .git/  index.html
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git remote add origin https://github.com/shallowwhite/htmlGitTest.git
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 266 bytes | 266.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shallowwhite/htmlGitTest.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ code .
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ code .
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git add index.html
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git commit -m "added !!!!!"
+git commit -m "added git add index.htmlgit add index.html!"
+[master e8ddebe] added git add index.htmlgit add index.html!
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ pit push
+bash: pit: command not found
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shallowwhite/htmlGitTest.git
+   5255a40..e8ddebe  master -> master
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ ^C
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$ ^C
+
+Steven@Dekkion-Desktop MINGW64 /c/code (master)
+$
